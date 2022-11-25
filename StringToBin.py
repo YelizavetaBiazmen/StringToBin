@@ -1,4 +1,4 @@
-print('Введите строку для перевода в двоичную систему.')
+print('Enter string to convent to binary.')
 name = input()
 binName = ''   # переменная для хранения результата  
 for char in name: # цикл по символам (char) строки(name)
@@ -7,4 +7,4 @@ for char in name: # цикл по символам (char) строки(name)
     sBinCode = binCode[2:] # убираем 0b из начала строки
     binName = binName + sBinCode # дописываем код в конец переменной
     print(char, ' - ', decCode, ' - ', sBinCode)
-print('результат:', binName)
+print('Result:', binName)
